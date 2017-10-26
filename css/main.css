@@ -9,7 +9,7 @@ nav {
     width: 100%
 }
 
-img.banner {
+.banner img{
     width: 100%;
 }
 
@@ -59,8 +59,7 @@ footer {
     overflow: hidden;
 }
 
-img.header {
-    float: left;
+.header img{
     margin: 0 auto;
     height: 64px
     width: 64px;
@@ -71,8 +70,7 @@ img.header {
     margin-top: 10px;
 }
 
-img.section {
-    display: inline;
+.section img{
     float: left;
 }
 
