@@ -1,4 +1,5 @@
 body {
+    background-color: rgba(211,211,211,.10);
     font-family: 'Corbel', 'Verdana', 'Helvetica';
     margin: 60px auto;
     width: 70%;
@@ -30,7 +31,7 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
-    color: #999;
+    color: #5c5757;
 }
 
 a:hover {
@@ -59,7 +60,7 @@ footer {
 }
 
 .header img{
-    float: right;
+    float: left;
     height: 64px;
     margin-right: 5px;
 }
@@ -68,16 +69,23 @@ footer {
     background-image: url("/images/insta.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
-    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 5px;
     padding-right: 1%;
     padding-left: 1%;
     padding-top: 1%;
-    padding-bottom: 40%;
+    padding-bottom: 50%;
+    text-align: center;
 }
 
 #landing-bkgrd {
     background-color: rgba(211,211,211,0.75);
     padding-bottom: 1px;
+}
+
+#landing h1 {
+    font-size: 4em;
+    margin: 0px;
 }
 
 .section {
