@@ -89,6 +89,15 @@ footer {
     margin: 0px;
 }
 
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+    padding: 5px;
+}
+
 .section {
     clear: both;
     margin-bottom: 10px;
