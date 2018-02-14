@@ -91,11 +91,8 @@ footer {
 
 #left {
     float: left;
-}
-
-#right {
-    float: right;
-    padding: 5px;
+    margin-right: 2em;
+    max-width: 50%;
 }
 
 .section {
