@@ -95,6 +95,10 @@ footer {
     max-width: 50%;
 }
 
+#left img {
+    max-height: 100%;
+    max-width: 100%;
+}
 .section {
     clear: both;
     margin-bottom: 10px;
