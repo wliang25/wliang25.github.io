@@ -1,120 +1,133 @@
+/** DEFAULT **/
 body {
-    background-color: rgba(211,211,211,.10);
-    font-family: 'Corbel', 'Verdana', 'Helvetica';
-    margin: 60px auto;
-    width: 70%;
+  background-color: rgba(211, 211, 211, .10);
+  font-family: 'Corbel', 'Verdana', 'Helvetica';
+  margin: 0 auto;
+  width: 80%;
 }
 
 nav {
-    top: 0;
-    width: 100%
+  top: 0;
+  width: 100%
 }
 
-.banner img{
-    width: 100%;
+.banner img {
+  width: 100%;
 }
 
 .container {
-    margin-top: 50px;
+  margin: 20px 0;
 }
 
-nav ul, footer ul{
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+.container-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul, footer ul {
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
 }
 
 nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: #5c5757;
+  text-decoration: none;
+  color: #5c5757;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 h1 {
-    font-size: 2em;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
 }
 
 p {
-    font-size: 1em;
-    color: #333;
+  font-size: 1em;
+  color: #333;
 }
 
 footer {
-    border-top: 1px solid #d5d5d5;
-    clear: both;
-    font-size: .8em;
+  border-top: 1px solid #d5d5d5;
+  clear: both;
+  font-size: .8em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+/** WENDY LIANG **/
+.left {
+  margin-right: 20px;
+  max-width: 50%;
+}
+
+.right h1 {
+  margin-top: 0;
+}
+
+/** PROJECTS **/
+.sections-container-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  padding: .5em;
+  width: 100%;
 }
 
 .header {
-    font-size: 2em;
-    height: 64px;
-    padding: .5em;
-    width: 100%;
+  align-items: center;
+  display: flex;
+  height: 64px;
 }
 
-.header img{
-    float: left;
-    height: 64px;
-    margin-right: 5px;
+.header img {
+  margin-right: 20px;
+  max-height: 64px;
+  width: auto;
 }
 
-#landing {
-    background-image: url("/images/insta.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    font-weight: bolder;
-    margin-bottom: 5px;
-    padding-right: 1%;
-    padding-left: 1%;
-    padding-top: 1%;
-    padding-bottom: 50%;
-    text-align: center;
-}
-
-#landing-bkgrd {
-    background-color: rgba(211,211,211,0.75);
-    padding-bottom: 1px;
-}
-
-#landing h1 {
-    font-size: 4em;
-    margin: 0px;
-}
-
-#left {
-    float: left;
-    margin-right: 2em;
-    max-width: 50%;
-}
-
-#left img {
-    max-height: 100%;
-    max-width: 100%;
-}
 .section {
-    clear: both;
-    margin-bottom: 10px;
-    margin-top: 10px;
+  clear: both;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-.section img{
-    float: left;
-    max-width: 100%;
+.section img {
+  float: left;
+  max-width: 100%;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+ul.posts {
+  margin: 20px auto 40px;
+  font-size: 1.5em;
 }
 
 ul.posts li {
-    list-style: none;
+  list-style: none;
 }
